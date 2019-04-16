@@ -21,11 +21,12 @@ class twoSum {
         throw new IllegalArgumentException("No two sum solution");
     }
     public static void main(String[] args) {
+
         int test[] = new int[]{1,2,3,4,5};
         int result[] = twoSum(test,9);
+
         for (int i = 0; i < result.length; i++ ) {
             System.out.println(result[i]);
         }
-
     }
 }
